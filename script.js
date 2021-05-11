@@ -61,10 +61,10 @@ for (var i=0; i<name.length;i++) {
   // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
   // name in the loop.
   if (lowercasing==="j") {
-    console.log(byeSpeaker.speak(name[i]));
+    byeSpeaker.speak(name[i]);
   } 
   else {
-    console.log(helloSpeaker.speak(name[i])); 
+    helloSpeaker.speak(name[i]); 
   }
 }
 
